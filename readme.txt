@@ -40,3 +40,24 @@ press space for all of them
 -> You are done
 
 
+Version 0.0.1
+
+First update the main angular package to version 1.2.15
+
+bower update angular
+
+Then include new ependencies by bower package management. 
+
+bower install angular-route
+bower install angular-cookies
+bower install angular-sanitize
+bower install angular-resource
+
+Finally update the bower.json file
+
+bower init
+
+This command also updates the index.html
+
+
+
