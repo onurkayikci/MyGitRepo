@@ -1,0 +1,23 @@
+{
+  "name": "ang-news",
+  "version": "0.0.0",
+  "homepage": "https://github.com/onurkayikci/MyGitRepo",
+  "authors": [
+    "Onur Kayikci <onurkayikci.ist@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-cookies": "~1.2.14",
+    "angular-mocks": "~1.2.14",
+    "angular-resource": "~1.2.14",
+    "angular-route": "~1.2.14",
+    "angular-sanitize": "~1.2.14",
+    "angular-scenario": "~1.2.14",
+    "angular": "~1.2.14",
+    "angularfire": "~0.7.0",
+    "bootstrap": "~3.1.1",
+    "es5-shim": "~2.3.0",
+    "jquery": "~2.1.0",
+    "json3": "~3.3.0"
+  }
+}
