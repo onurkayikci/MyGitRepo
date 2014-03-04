@@ -6,7 +6,8 @@ var app = angular.module('angNewsApp', [
 	'ngCookies',
 	'ngResource',
 	'ngSanitize',
-	'ngRoute'
+	'ngRoute',
+	'firebase'
 	]);
 
 app.config(['$routeProvider', function($routeProvider){
@@ -16,3 +17,5 @@ app.config(['$routeProvider', function($routeProvider){
 		controller: 'PostsCtrl'
 	});
 }]);
+
+app.constant('FIREBASE_URL', 'https://dazzling-fire-4978.firebaseio.com/');

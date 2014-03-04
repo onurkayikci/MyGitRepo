@@ -59,5 +59,13 @@ bower init
 
 This command also updates the index.html
 
+Version 0.0.2
+
+Three-way data binding is implemented using the Firebase Api by Firebase cloud system. Bower components are updated.
+
+bower install angularfire
+
+bower init
+
 
 
